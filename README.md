@@ -15,5 +15,6 @@ Check example.html for a short example on how to implement KnockoutJS-i18n.
 
 - AJAX download of language files using jQuery
 - loading language files internally instead of using objects.
+- Make it an actual plugin
 
 Got any feature requests? Raise an issue
