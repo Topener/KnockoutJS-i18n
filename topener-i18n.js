@@ -38,7 +38,7 @@ topener.i18n = function(){
             }
             
             if (!self.langVars()[name]){
-                return 'var not found';
+                return 'var "' + name + '" not found';
             }
             
             var string = self.langVars()[name];
@@ -69,7 +69,7 @@ topener.i18n = function(){
             }
             
             if (!self.langVars()[name]){
-                return 'var not found';
+                return 'var "' + name + '" not found';
             }
             
             return self.langVars()[name];
