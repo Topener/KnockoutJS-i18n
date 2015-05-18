@@ -38,7 +38,9 @@ topener.i18n = function(){
             }
             
             if (!self.langVars()[name]){
-                return 'var "' + name + '" not found';
+                var message = 'var "' + name + '" not found';
+                console && console.warn && console.warn(message);
+                return message;
             }
             
             var string = self.langVars()[name];
@@ -69,7 +71,9 @@ topener.i18n = function(){
             }
             
             if (!self.langVars()[name]){
-                return 'var "' + name + '" not found';
+                var message = 'var "' + name + '" not found';
+                console && console.warn && console.warn(message);
+                return message;
             }
             
             return self.langVars()[name];
